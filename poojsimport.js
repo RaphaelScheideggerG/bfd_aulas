@@ -1,5 +1,6 @@
-import Pessoa from "./poojs.js";
+import Pessoa from "./objetos/Pessoa.js";
 
 const pedro = new Pessoa(85, 1.80);
 console.log(pedro);
-console.log("IMC: ",pedro.imc().toFixed(2));
+//console.log("IMC: ",pedro.imc().toFixed(2));
+console.log(pedro.imc)
