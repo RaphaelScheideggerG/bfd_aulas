@@ -1,0 +1,17 @@
+// UML Diagrama de classes
+
+(-) Privado
+(+) Publico
+-------------------
+Nome da classes
+-------------------
+-matrícula: Number
+-curso: String
+-escola: String
+-------------------
++boolean setMatricula(matricula: Number)
++Number getMatricula()
++boolean setCurso(curso: String)
++String getCurso()
++boolean setEscola(escola : String)
++String getEscola()
