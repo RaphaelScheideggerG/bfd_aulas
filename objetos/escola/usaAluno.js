@@ -1,4 +1,4 @@
-const Pessoa = require("./escola/Aluno.js");
+const Pessoa = require("./Aluno.js");
 
 const joao = new Pessoa();
 joao.setMatricula(192764113);

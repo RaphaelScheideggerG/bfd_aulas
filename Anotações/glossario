@@ -1,0 +1,19 @@
+Olá! Estou pronto para continuar o nosso glossário de programação. Por favor, fornecerei o item lexical em português que desejo definir, e voce me apresenta no formato: Termo [Termo em Inglês]: Definição.
+
+Atributo [Attribute]: característica ou propriedade que define um objeto ou entidade. Ele armazena informações sobre o objeto, descrevendo seu estado ou características específicas. Atributos são frequentemente usados em linguagens de programação orientadas a objetos para definir as propriedades de uma classe e seus objetos. 
+
+Método [Method]: Uma função ou procedimento associado a um objeto ou classe, que define um comportamento ou uma ação que esse objeto ou classe pode realizar. Métodos encapsulam a lógica operacional e manipulam os dados (atributos) da instância à qual pertencem, permitindo a interação e a execução de tarefas específicas dentro de um programa.
+
+Herança [Inheritance]: Em programação orientada a objetos, herança é um mecanismo que permite que uma nova classe (chamada de classe derivada, subclasse ou classe filha) adquira as propriedades e comportamentos (atributos e métodos) de uma classe existente (chamada de classe base, superclasse ou classe pai). Isso promove a reutilização de código e estabelece uma relação "é um tipo de" entre as classes.
+
+Sintaxe [Syntax]: Em programação, sintaxe refere-se ao conjunto de regras que define as combinações de símbolos que são consideradas uma instrução ou programa estruturalmente válidos na linguagem. Pense na sintaxe como a gramática de uma linguagem de programação. Ela dita como as palavras-chave, operadores, variáveis e outros elementos devem ser organizados para que o compilador ou interpretador possa entender e executar o código.
+
+Variável [Variable]: Em programação, uma variável é um espaço nomeado na memória do computador usado para armazenar dados.
+
+Classe [Class]: Em programação orientada a objetos (POO), uma classe é um modelo ou projeto para criar objetos. Ela define as propriedades (também chamadas de atributos ou variáveis de instância) e os comportamentos (chamados de métodos ou funções) que os objetos criados a partir dela terão.
+
+Objeto [Object]: Objeto [Object]: Em programação orientada a objetos (POO), um objeto é uma instância de uma classe. Ele é uma entidade concreta que possui as propriedades (atributos) e os comportamentos (métodos) definidos pela sua classe.
+
+Instância [Instance]: Em programação orientada a objetos (POO), uma instância é um objeto individual criado a partir de uma classe. Dizer que um objeto é uma "instância" de uma classe significa que ele é uma realização concreta e particular do modelo definido por aquela classe. 
+
+Algoritmo [Algorithm]: Uma sequência finita e bem definida de instruções ou passos lógicos para resolver um problema específico ou realizar uma tarefa.
