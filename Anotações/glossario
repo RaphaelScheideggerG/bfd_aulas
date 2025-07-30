@@ -17,3 +17,6 @@ Objeto [Object]: Objeto [Object]: Em programação orientada a objetos (POO), um
 Instância [Instance]: Em programação orientada a objetos (POO), uma instância é um objeto individual criado a partir de uma classe. Dizer que um objeto é uma "instância" de uma classe significa que ele é uma realização concreta e particular do modelo definido por aquela classe. 
 
 Algoritmo [Algorithm]: Uma sequência finita e bem definida de instruções ou passos lógicos para resolver um problema específico ou realizar uma tarefa.
+
+API [application programming interface]: Conjunto de regras e protocolos que permitem que componentes de software (ou até hardware) se comuniquem entre si de forma padronizada. A API define métodos, formatos de dados, autenticação e fluxos de solicitação/resposta — funcionando como um contrato entre quem oferece a funcionalidade e quem a utiliza . APIs são essenciais no desenvolvimento moderno, permitindo integração entre sistemas, uso de serviços em nuvem, bibliotecas ou funcionalidades internas .
+
