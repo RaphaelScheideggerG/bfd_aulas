@@ -1,4 +1,4 @@
-const calculadora = require('../bib/criamodulos');
+const calculadora = require('./criamodulos');
 
 function multiplica(a,b){
     let multi = a * b;
