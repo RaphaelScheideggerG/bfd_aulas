@@ -1,13 +1,12 @@
-//import Pessoa from "./objetos/Pessoa.js";
+// import Pessoa from "./objetos/Pessoa.js";
 const Pessoa = require('./Pessoa.js')
+const PessoaFisica = require('./PessoaFisica.js')
 
-const pedro = new Pessoa("pedro", 85, 1.80);
-console.log(pedro);
-//console.log("IMC: ",pedro.imc().toFixed(2));
-console.log(pedro.imc); // Não mostra o valor pois a função não foi chamada e imc não foi definido
+// Pessoas =>
+const armando = new PessoaFisica()
 
-const maria = new Pessoa();
-maria.nome = "maria";
-maria.altura = 1.67;
-maria.peso = 57;
-console.log(maria);
+// Usando pessoas =>
+armando.setNome("armando")
+armando.setEmail("armando1946@hotmail.com")
+armando.SetCPF("05329453259")
+console.log("Nome:", armando.getNome(), "\n Email:", armando.getEmail(), "\n CPF:", armando.GetCPF())

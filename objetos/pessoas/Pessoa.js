@@ -35,10 +35,3 @@ class Pessoa
 }
 
 module.exports = Pessoa;
-
-// ---------------------------------- //
-
-const x = new Pessoa();
-x.setNome("roberta")
-x.setEmail("roberta1212@gmail.com") 
-console.log("Nome:",x.getNome(), "\n", "Email:",x.getEmail())
