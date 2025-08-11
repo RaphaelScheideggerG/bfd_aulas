@@ -20,7 +20,7 @@ class Pessoa
 
     setEmail(email)
     {
-        if(email && email.lastIndexOf("@gmail.com") != -1)
+        if( (email) && (email.lastIndexOf("@") != -1) && (email.str.indexOf(".", email.lastIndexOf("@")) != -1) )
         {
             this.#email = email; return true;
         } else{return false;}
