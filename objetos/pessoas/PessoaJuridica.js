@@ -20,7 +20,7 @@ class PessoaJuridica extends Pessoa
     {
         if(email != "1234@gmail.com")
         {
-            super.setEmail(email);
+            return super.setEmail(email);
         } else{return false;}
     }
 }
