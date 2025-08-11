@@ -18,7 +18,7 @@ class PessoaJuridica extends Pessoa
 
     setEmail(email)
     {
-        if(email != "1234@gmail.com")
+        if(email !== "1234@gmail.com")
         {
             return super.setEmail(email);
         } else{return false;}
