@@ -4,7 +4,7 @@ class PessoaFisica extends Pessoa
 {
     #cpf
     
-    SetCPF(cpf)
+    setCPF(cpf)
     {
         if(cpf)
         {
@@ -12,10 +12,10 @@ class PessoaFisica extends Pessoa
         } 
         else 
         {
-            this.#cpf = ""; return false;
+            return false;
         }
     }
-    GetCPF(cpf)
+    getCPF()
     {
         return this.#cpf;
     }

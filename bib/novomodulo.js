@@ -15,4 +15,4 @@ function linha(n)
     console.log("-".repeat(n))
 }
 
-module.exports = {multiplica, divisao}
+module.exports = {multiplica, divisao, linha}
