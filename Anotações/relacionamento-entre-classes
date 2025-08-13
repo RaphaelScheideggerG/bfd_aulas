@@ -1,0 +1,8 @@
+relacionamentos: (cardinalidade/multiplicidade)
+    -Herança
+    -Relacionamento Simples
+
+        1   }   1-1
+            }   N-N
+            }   1-N
+        N   }   N-1
