@@ -10,4 +10,9 @@ function divisao(a,b){
     return divisao
 }
 
-module.exports = {multiplica, divisao, calculadora, subtracao }
+function linha(n)
+{
+    console.log("-".repeat(n))
+}
+
+module.exports = {multiplica, divisao}

@@ -14,4 +14,4 @@ export {subtração}
 export {soma}
 */
 
-module.exports = {soma, subtracao, divisao, multiplica}
+module.exports = {soma, subtracao}
