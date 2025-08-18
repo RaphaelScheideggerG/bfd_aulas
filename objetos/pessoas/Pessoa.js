@@ -7,8 +7,11 @@ class Pessoa
     {
         if(nome)
         {
-            console.log("Tentando atribuir valor de nome", nome, "Foi possivel, o nome nao é vazio"); this.#nome = nome; return true;
-        } else {console.log("Tentando atribuir valor de nome", nome, "Não foi possível, o nome é vazio"); this.#nome = null; return false}
+            this.#nome = nome; return true;
+        } else 
+        {
+            return false
+        }
     }
     getNome()
     {
@@ -33,5 +36,4 @@ class Pessoa
         } else{return "O email é INVÁLIDO";}
     }
 }
-
 module.exports = Pessoa;
