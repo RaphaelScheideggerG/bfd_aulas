@@ -2,8 +2,28 @@ class Telefone
 {
     #ddd;
     #numero;
+    #pessoas;
 
-    // Logradouro:
+    // RELACIONAMENTO PESSOA N-N TELEFONE
+    addPessoa(pessoa)
+    {
+        if (pessoa)
+        {
+            this.#pessoas.push(pessoa);
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    getPessoas()
+    {
+        return this.#pessoas
+    }
+
+    
+    // DDD:
     setDdd(ddd)
     {
         if (ddd)
@@ -21,7 +41,7 @@ class Telefone
         return this.#ddd;
     }
 
-    // Cep:
+    // NUMERO:
     setNumero(numero)
     {
         if (numero)

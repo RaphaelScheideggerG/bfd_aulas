@@ -2,6 +2,25 @@ class Endereco
 {
     #logradouro;
     #cep;
+    #pessoas = [];
+
+    // RELACIONAMENTO PESSOAS N-1 ENDERECO
+    addPessoa(pessoa)
+    {
+        if (pessoa)
+        {
+            this.#pessoas.push(pessoa);
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    getPessoas()
+    {
+        return this.#pessoas
+    }
 
     // Logradouro:
     setLogradouro(logradouro)
