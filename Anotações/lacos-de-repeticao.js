@@ -27,6 +27,6 @@ while (true)
 utils.linha(40);
 
 var y = 0
-console.log("TESTE 3: loop do while\n"); //Executa uma vez e depois testa
+console.log("TESTE 3: loop do while\n"); // Executa uma vez e depois testa
 do {console.log(y); y++} while(y<5);
 console.log(y);

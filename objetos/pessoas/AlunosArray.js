@@ -47,4 +47,5 @@ function showone(i)
     utils.linha(50);
 }
 
-showone(2)
+showone(2);
+showall();
