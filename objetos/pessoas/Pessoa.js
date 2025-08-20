@@ -84,7 +84,7 @@ class Pessoa
         } else{return "O email é INVÁLIDO";}
     }
 }
-//module.exports = Pessoa;
+module.exports = Pessoa;
 
 /*  //TESTE DO RELACIONAMENTO COM ENDEREÇO
 const end = new Endereco()
@@ -94,7 +94,7 @@ end.setCep("928839929")
 const obj = new Pessoa()
 obj.setNome("josé")
 obj.setEndereco(end)
-console.log(obj.getNome(), obj.getEndereco().getLogradouro(), obj.getEndereco().getCep(), end.getPessoas().getNome())
+console.log(obj.getNome(), obj.getEndereco().getLogradouro(), obj.getEndereco().getCep(), end.getPessoas())
 */
 
 /* //TESTE DO RELACIONAMENTO COM TELEFONE

@@ -1,4 +1,4 @@
-const Aluno = require("./Aluno")
+const Aluno = require("./Aluno.js")
 const utils = require("../../bib/novomodulo.js")
 
 
@@ -26,11 +26,25 @@ console.log(alunos)
 
 utils.linha(50)
 
-for (i=0; i<alunos.length; i++)
+function showall()
+{
+    for (i=0; i<alunos.length; i++)
+    {
+        console.log("Nome: ", alunos[i].getNome()); 
+        console.log("Matrícula:", alunos[i].getMatricula()); 
+        console.log("Curso:", alunos[i].getCurso()); 
+        console.log("CPF:", alunos[i].getCPF());
+        utils.linha(50);
+    }
+}
+
+function showone(i)
 {
     console.log("Nome: ", alunos[i].getNome()); 
     console.log("Matrícula:", alunos[i].getMatricula()); 
     console.log("Curso:", alunos[i].getCurso()); 
-    console.log("CPF:", alunos[i].getCPF())
-    utils.linha(50)
+    console.log("CPF:", alunos[i].getCPF());
+    utils.linha(50);
 }
+
+showone(2)

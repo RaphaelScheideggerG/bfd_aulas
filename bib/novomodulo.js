@@ -6,13 +6,13 @@ function multiplica(a,b){
 }
 
 function divisao(a,b){
-    let divisao = a/b
-    return divisao
+    let divisao = a/b;
+    return divisao;
 }
 
 function linha(n)
 {
-    console.log("-".repeat(n))
+    console.log('-'.repeat(n));
 }
 
 module.exports = {multiplica, divisao, linha}
