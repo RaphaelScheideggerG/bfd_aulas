@@ -27,19 +27,17 @@ console.log(obj.getNome());
 console.log(obj.getEndereco().getLogradouro());
 
 //////////
-
 console.log(obj.getTelefones());
-
 /////////
 
 console.log(obj.getTitulo().getNumero());
+
 // 08: // Verificando as referências cruzadas
 
 /////////
-
 console.log(end.getPessoas());
-
+console.log(fone1.getPessoas());
 /////////
 
-console.log(fone1.getPessoas());
+
 console.log(titulo.getPF().getNome());
