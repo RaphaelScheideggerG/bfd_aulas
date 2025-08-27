@@ -2,7 +2,7 @@ class Telefone
 {
     #ddd;
     #numero;
-    #pessoas;
+    #pessoas = [];
 
     // RELACIONAMENTO PESSOA N-N TELEFONE
     addPessoa(pessoa)

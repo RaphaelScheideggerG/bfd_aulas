@@ -49,3 +49,4 @@ class Titulo{
     }
     
 }
+module.exports = Titulo;
