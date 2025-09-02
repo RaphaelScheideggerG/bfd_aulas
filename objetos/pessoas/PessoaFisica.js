@@ -1,11 +1,11 @@
-const Pessoa = require("./Pessoa");
-const Titulo = require('./Titulo.js') 
+const Pessoa = require("./Pessoa.js");
+const Titulo = require('./Titulo.js')
 
 class PessoaFisica extends Pessoa
 {
-    #cpf;
-    #titulo = [];
-    
+    #cpf
+    #titulo
+
     setTitulo(titulo) {
         if (titulo instanceof Titulo) {
           this.#titulo = titulo;
@@ -14,13 +14,11 @@ class PessoaFisica extends Pessoa
         } else {
           return false;
         }
-      }
-      // 12:
+    }
       getTitulo() {
         return this.#titulo;
-      }
+      }    
     
-
     setCPF(cpf)
     {
         if(cpf)

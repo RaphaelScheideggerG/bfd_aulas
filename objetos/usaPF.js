@@ -1,8 +1,9 @@
+// 01:
 const Telefone = require('./pessoas/Telefone');
 const Endereco = require('./pessoas/Endereco');
 const Titulo = require('./pessoas/Titulo');
 // 02:
-const PF = require('./pessoas/PessoaFisica.js');
+const PF = require('./pessoas/PessoaFisica');
 // 03:
 const end = new Endereco();
 const fone1 = new Telefone();
@@ -26,18 +27,25 @@ obj.setTitulo(titulo);      // vincula Titulo a PF
 console.log(obj.getNome());
 console.log(obj.getEndereco().getLogradouro());
 
-//////////
-console.log(obj.getTelefones());
-/////////
+// Exibe os números de cada telefone
+const telefones = obj.getTelefones();
+for (const fone of telefones) {
+  console.log(fone.getNumero());
+}
 
 console.log(obj.getTitulo().getNumero());
 
 // 08: // Verificando as referências cruzadas
+// Exibe o nome de cada pessoa associada ao endereço
+const pessoasDoEndereco = end.getPessoas();
+for (const pessoa of pessoasDoEndereco) {
+  console.log(pessoa.getNome());
+}
 
-/////////
-console.log(end.getPessoas());
-console.log(fone1.getPessoas());
-/////////
-
+// Exibe o nome de cada pessoa associada ao telefone
+const pessoasDoTelefone = fone1.getPessoas();
+for (const pessoa of pessoasDoTelefone) {
+  console.log(pessoa.getNome());
+}
 
 console.log(titulo.getPF().getNome());
