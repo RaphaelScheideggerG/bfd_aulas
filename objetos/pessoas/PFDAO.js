@@ -21,9 +21,9 @@ export class PFDAO {
         // ENDEREÇO
 
         return{
-            nome: this.#pf.getNome()
-            email: this.#pf.getEmail()
-            endereco: this.#pf.getEndereco()
+            nome: this.#pf.getNome(),
+            email: this.#pf.getEmail(),
+            endereco: this.#pf.getEndereco(),
             
         }
     }
