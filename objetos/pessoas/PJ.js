@@ -1,5 +1,5 @@
 const Pessoa = require('./Pessoa.js');  // Importa a classe base Pessoa (superclasse)
-const IE = require('./IEclss.js');   // Importa a classe IEclss para relacionamento posterior
+const IE = require('./IE/IEclss.js');   // Importa a classe IEclss para relacionamento posterior
 
 
 class PJ extends Pessoa {  // Declaração da classe PJ herdando de Pessoa

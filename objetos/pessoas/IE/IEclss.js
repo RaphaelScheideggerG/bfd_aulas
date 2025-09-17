@@ -1,4 +1,4 @@
-const PJ = require('./PJ.js');               // 04 // Importa a classe PJ (Pessoa Jurídica)
+const PJ = require('../PJ.js');               // 04 // Importa a classe PJ (Pessoa Jurídica)
 
 class IE {                                 // 05 // Declara a classe IE (Inscrição Estadual)
   #numero;                                 // 06 // Atributo privado para o número da IE

@@ -2,7 +2,7 @@
 // 02 // classe construída dentro da pasta "/pessoas/DAOs/PJDAO.mjs"
 
 import { localStorage } from './localStorage.mjs'; // 03 // Importa a simulação de localStorage
-import PJ from './PJ.js';                          // 04 // Importa a classe PJ (Pessoa Jurídica)
+import PJ from '../PJ.js';                          // 04 // Importa a classe PJ (Pessoa Jurídica)
 
 export default class PJDAO {                        // 05 // Declara classe PJDAO que será exportada como default
 

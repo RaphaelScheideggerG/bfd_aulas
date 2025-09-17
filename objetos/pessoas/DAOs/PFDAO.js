@@ -1,5 +1,5 @@
 import { localStorage } from './localStorage.mjs';
-import PF from './PessoaFisica'
+import PF from '../PessoaFisica'
 
 export class PFDAO {
     #pf;
