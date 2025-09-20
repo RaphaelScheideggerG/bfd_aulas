@@ -61,7 +61,7 @@ class Telefone
 }
 module.exports = Telefone;
 
-// TESTES TELEFONE -> working
+// TESTES TELEFONE -> funcionando
 /* 
 tel1 = new Telefone()
 answer = tel1.setDdd(81)
