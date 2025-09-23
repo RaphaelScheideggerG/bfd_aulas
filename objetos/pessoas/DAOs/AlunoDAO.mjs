@@ -1,5 +1,6 @@
 import { localStorage } from './localStorage.mjs';
-import {Aluno} from '../Aluno'
+//const Aluno = require(`../Aluno.js`)
+import Aluno from '../Aluno.js';
 
 export default class AlunoDAO{
     #aluno
@@ -39,12 +40,12 @@ export default class AlunoDAO{
     
     saveJSON() {                                      // 30 // Método para salvar o objeto PJ em formato JSON no localStorage
         // transforma em string JSON usando stringify() e armazena
-        localStorage.setItem("pf", JSON.stringify(this.toJSON()));
+        localStorage.setItem("aluno", JSON.stringify(this.toJSON()));
     }
     
     recoveryJSON() {                                  // 34 // Método para recuperar os dados de PJ armazenados
         // recupera a string armazenada e transforma em JSON usando parse()
-        return JSON.parse(localStorage.getItem("pf"));  // 36
+        return JSON.parse(localStorage.getItem("aluno"));  // 36
     }
 
 }

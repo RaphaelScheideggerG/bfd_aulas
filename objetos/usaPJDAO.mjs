@@ -1,10 +1,10 @@
 // 01 // código construído na pasta "/pessoas/usaPJDAO.mjs"
 
 import PJ from './pessoas/PJ.js';                      // 02 // Importa a classe Pessoa Jurídica
-import PJDAO from './pessoas/PJDAO.mjs';          // 03 // Importa a DAO que manipula objetos PJ
+import PJDAO from './pessoas/DAOs/PJDAO.mjs';          // 03 // Importa a DAO que manipula objetos PJ
 import Endereco from './pessoas/Endereco.js';          // 04 // Importa a classe Endereco
 import Telefone from './pessoas/Telefone.js';          // 05 // Importa a classe Telefone
-import IE from './pessoas/IEclss.js';                // 06 // Importa a classe Inscrição Estadual (IE)
+import IE from './pessoas/IE/IEclss.js';                // 06 // Importa a classe Inscrição Estadual (IE)
 
 // ========== Criação do objeto PJ ==========
 
